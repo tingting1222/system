@@ -1,0 +1,111 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+header {
+  height: 0.45rem;
+  background: #333333;
+  position: relative; }
+  header > span, header time {
+    position: absolute;
+    color: #f0efed;
+    font-size: 0.14rem; }
+  header > span {
+    left: 0.13rem;
+    top: 0.15rem; }
+  header > time {
+    right: 0.13rem;
+    top: 0.09rem; }
+  header > p {
+    padding-left: 0.5rem;
+    line-height: 0.45rem;
+    color: #f0efed;
+    font-size: 0.14rem;
+    font-weight: 200; }
+
+.mark {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3); }
+  .mark > .mark_con {
+    width: 2.65rem;
+    height: 3.5rem;
+    background: #ffffff;
+    border-radius: 0.05rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto; }
+    .mark > .mark_con > .con_top {
+      margin-top: 0.18rem; }
+      .mark > .mark_con > .con_top > dl {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        text-align: center; }
+        .mark > .mark_con > .con_top > dl > dt {
+          width: 45%;
+          padding-left: 0.6rem; }
+          .mark > .mark_con > .con_top > dl > dt > img {
+            width: 100%;
+            height: 100%; }
+        .mark > .mark_con > .con_top > dl > dd {
+          font-size: 0.13rem;
+          color: #969ea0; }
+
+.con_input {
+  margin-top: 0.25rem;
+  position: relative; }
+  .con_input > span, .con_input time {
+    position: absolute;
+    left: 0.15rem; }
+  .con_input > span {
+    display: inline-block;
+    width: 0.13rem;
+    height: 0.18rem; }
+    .con_input > span > img {
+      width: 100%;
+      height: 100%; }
+  .con_input > time {
+    display: inline-block;
+    width: 0.14rem;
+    height: 0.16rem; }
+    .con_input > time > img {
+      width: 100%;
+      height: 100%; }
+  .con_input > input {
+    width: 80%;
+    border: none;
+    padding-left: 0.4rem; }
+  .con_input > input::-webkit-input-placeholder {
+    color: #c3c3c3;
+    font-size: 0.12rem;
+    font-weight: 200; }
+
+.xian {
+  border: 1px solid #f0efed;
+  margin-top: 0.07rem;
+  margin-right: 0.1rem;
+  margin-left: 0.1rem; }
+
+.first {
+  margin-bottom: 0.27rem; }
+
+button {
+  width: 2rem;
+  height: 0.3rem;
+  background: #1dbb7e;
+  border: none;
+  border-radius: 0.05rem;
+  text-align: center;
+  line-height: 0.3rem;
+  color: #f0efed;
+  font-size: 0.12rem;
+  font-weight: 200;
+  margin: 30px 30px; }
+
+/*# sourceMappingURL=style.css.map */
