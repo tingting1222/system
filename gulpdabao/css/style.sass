@@ -1,0 +1,126 @@
+html,body
+  width: 100%
+  height: 100%
+  display: flex
+  flex-direction: column
+  overflow: hidden
+header
+  height: 1.5rem
+  background: url("../images/head_02.jpg") no-repeat
+  background-size: 100% 100%
+  position: relative
+  &>span,time
+    position: absolute
+    top: .1rem
+    display: inline-block
+    width: .27rem
+    height: .27rem
+    &>img
+      width: 100%
+      height: 100%
+  &>span
+    left: .05rem
+  &>time
+    right: .05rem
+  &>p
+    text-align: center
+    padding-top: .1rem
+    &>input
+      width: 70%
+      height: .26rem
+      border: none
+      border-radius: 10px
+      padding-left: .15rem
+section
+  flex: 1
+  overflow: auto
+  padding-left: .04rem
+  padding-right: .04rem
+  &>#sec_play
+    background: #03a9f5
+    &>.sec_left
+      border-right: 1px solid #61c4da
+    & li
+      border-bottom: 1px solid #61c4da
+      border-right: 1px solid #61c4da
+  &>#sec_tree
+    background: #80b43f
+    &>.sec_left
+      border-right: 1px solid #b0cc80
+    & li
+      border-bottom: 1px solid #b0cc80
+      border-right: 1px solid #b0cc80
+  &>.sec_hotel
+    margin-top: .04rem
+    display: flex
+    background: #ff5555
+    border: 1px solid #eaced0
+    border-bottom: none
+    &>.sec_left
+      width: 34%
+      border-right: 1px solid #e29595
+      &>dl
+        text-align: center
+        padding-bottom: .08rem
+        &>dt
+          width: .6rem
+          height: .6rem
+          padding-top: .1rem
+          &>img
+            width: 100%
+            height: 100%
+            padding-left: .23rem
+        &>dd
+          color: #f0f9f4
+          font-size: .15rem
+          padding-top: .14rem
+          font-weight: 300
+    &>.sec_right
+      flex: 1
+      &>ul
+        display: flex
+        &>li
+          width: 50%
+          text-align: center
+          line-height: .6rem
+          color: #f0f9f4
+          font-size: .15rem
+          font-weight: 300
+          border-right: 1px solid #e29595
+          border-bottom: 1px solid #e29595
+.sec_last
+  margin-top: .04rem
+  background: orange
+  &>ul
+    display: flex
+    &>li
+      text-align: center
+      flex: 1
+      line-height: .55rem
+      color: #f0efed
+      font-size: .15rem
+      font-weight: 300
+      border-right: 1px solid rgb(233,194,105)
+footer
+  height: .5rem
+  border-top: 1px solid #cccccc
+  overflow: hidden
+  &>ul
+    display: flex
+    &>li:first-of-type
+      &>p
+        color: #73dac8
+    &>li
+      flex: 1
+      text-align: center
+      padding-top: .05rem
+      &>span
+        display: inline-block
+        width: .3rem
+        height: .23rem
+        &>img
+          width: 100%
+          height: 100%
+      &>p
+        font-size: .13rem
+        color: #a2a2a2
